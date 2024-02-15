@@ -20,7 +20,7 @@ public class semafaroInteligente  {
 	public static void main(String args[]) 
 	{
 
-	//Creando Variable responsable donde el usuario ingresara la palabra
+	//Creando la Variable responsable donde el usuario ingresara la palabra
 	Scanner guardarEntradas = new Scanner(System.in);
 
     //Bienvenida al Programa al usuario
@@ -60,6 +60,11 @@ public class semafaroInteligente  {
 
  		//SEMAFARO VERDE (MENSAJE MOSTRADO CUANDO EL SEMAFARO SE ENCUENTRE EN VERDE)
  		System.out.println("Estado del Semafaro: Estado Verde -> Adelante");
+ 		entradaUsuario  = guardarEntradas.nextLine(); // Entrada que se le solicita al usuario para determinar si continua el ciclo o no
+
+ 		System.out.println("\nDesea continuar?:");
+ 		System.out.println("\n1-)Haga Enter para continuar");
+ 		System.out.println("2-)Escriba FIN para finalizar el Semafaro Inteligente");
  		entradaUsuario  = guardarEntradas.nextLine(); // Entrada que se le solicita al usuario para determinar si continua el ciclo o no
 
  		/*En el IF se estaria comparando si el dato ingresado por el usuario es FIN.
