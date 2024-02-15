@@ -64,7 +64,7 @@ public class semafaroInteligente  {
 
  		System.out.println("\nDesea continuar?:");
  		System.out.println("\n1-)Haga Enter para continuar");
- 		System.out.println("2-)Escriba FIN para finalizar el Semafaro Inteligente");
+ 		System.out.println("2-)Escriba FIN para finalizar el Semafaro Inteligente\n");
  		entradaUsuario  = guardarEntradas.nextLine(); // Entrada que se le solicita al usuario para determinar si continua el ciclo o no
 
  		/*En el IF se estaria comparando si el dato ingresado por el usuario es FIN.
