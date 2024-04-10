@@ -1,0 +1,7 @@
+void write(int c)
+void write(char [] cbuf)
+void write(char [] cbuf, int offset, int length)
+void write(String string)
+void write(String string,int offset, int length)
+void close()
+void flush()
