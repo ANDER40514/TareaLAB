@@ -1,1 +1,1 @@
-Rama Principal que sera utilizada, para luego de culminar las dos materias por completo, aplicarle un merge
+Esta Rama ha sido creada con el unico y exlusivo proposito de guardar el proyecto final de Remesa del Lab de Java
